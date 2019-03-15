@@ -1,0 +1,26 @@
+.snail{
+    max-width: 80px;
+}
+
+.dandy, .logo{
+	max-width: 180px;
+}
+
+#page-login, #signup-form, #page-signup-1, #page-signup-2, #page-signup-3{
+	display: none;
+	position: relative;
+}
+
+
+
+.progress{
+	height: 2px;
+}
+
+.progress-bar{
+	width:25%;
+}
+
+.mobileWrap{
+	max-width: 500px;
+}
