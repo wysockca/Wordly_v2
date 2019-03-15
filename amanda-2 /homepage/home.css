@@ -1,0 +1,45 @@
+
+
+.form-control{
+    width:65%;
+}
+
+.btn{
+    margin-left: .5em;
+}
+
+.branches{
+    margin-top:50%;
+ 
+}
+.branch-1{
+    margin-top: 20%;
+}
+
+.branch-2{
+    margin-top: 5%;
+}
+
+.branch-3{
+    margin-top: 5%;
+}
+
+.title{
+    font-size: 12pt;
+}
+
+.buddy{
+    margin-top:50%;
+}
+
+.col{
+    padding-left:0;
+}
+/* make search bar expand when screen is bigger */
+/* this is for devices that are tablet size  */
+/* OR  using sass @include media-breakpoint-up(md) { ... } */
+@media (min-width: 768px){
+    .col{
+        padding-left:0;
+    }
+}
