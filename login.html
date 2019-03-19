@@ -23,13 +23,13 @@
 
         <!--///////// LANDING PAGE /////////-->
         <div id="page-landing">
-            <button class="btn btn-primary btn-block login-button ">Log in</button> 
-            <button class="btn btn-primary btn-block signup-button mt-4">Sign Up</button> 
+            <button class="btn btn-primary btn-block" id="login-button">Log in</button> 
+            <button class="btn btn-primary btn-block mt-4" id="signup-button">Sign Up</button> 
             <div class="text-center mt-4"><img class="dandy" src="assets/dandy.png"></div>
         </div>
         
         <!--///////// LOG IN /////////-->
-    <div id="page-login">        
+        <div id="page-login">        
             <form action="">
             <div class="form-group">
                 <input type="email" id="inputEmail" class="mt-4 form-control" placeholder="Email" required>
@@ -44,8 +44,8 @@
         </form> 
     </div>
     <!--///////// SIGN UP /////////-->
-
-        <form id="signup-form" action="#">
+    <div  id="signup-form">
+        <form id="" action="#">
             <img src="assets/snail.png" class="snail">
             <div class="progress">
             <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -54,14 +54,14 @@
                 <h3>Step One</h3>
                     <input type="email" id="inputEmail" class="mt-4 form-control" placeholder="Email" name="email">
                     <input type="text" id="inputName" class="mt-4 form-control" placeholder="First Name" name="Fname">  
-                    <!-- <button class="btn btn-primary btn-block next-1 mt-4" value="next" name="next">Next</button>  
-                    <button class="btn btn-secondary btn-block previous-0 mt-4" name="previous">Previous</button> -->
+                    <!-- <button class="btn btn-primary btn-block next-1 mt-4" name="next">Next</button>  
+                    <button class="btn btn-secondary btn-block previous-0 mt-4">Previous</button> -->
                     <div class="row">
                         <div class="col">
-                        <button class="btn btn-primary btn-block previous-0 mt-4" name="previous">Previous</button>
+                        <button class="btn btn-primary btn-block mt-4" id="previous-0">Previous</button>
                         </div>
                         <div class="col">
-                        <button class="btn btn-primary btn-block next-1 mt-4" name="next">Next</button>
+                        <button class="btn btn-primary btn-block mt-4" id="next-1">Next</button>
                         </div>
                     </div>
             </fieldset>
@@ -75,10 +75,10 @@
                     </select>
                     <div class="row">
                         <div class="col">
-                        <button class="btn btn-primary btn-block previous-1 mt-4" name="previous">Previous</button>
+                        <button class="btn btn-primary btn-block mt-4" id ="previous-1">Previous</button>
                         </div>
                         <div class="col">
-                        <button class="btn btn-primary btn-block next-2 mt-4" name="next">Next</button>
+                        <button class="btn btn-primary btn-block mt-4" id="next-2">Next</button>
                         </div>
                     </div>
    <!--                  <button class="btn btn-primary btn-block next-2 mt-4" name="next" value="next">Next</button>
@@ -87,24 +87,24 @@
             <fieldset id="page-signup-3">
                 <h3>Step Three</h3>
                     <input type="text" id="inputPassword" class="mt-4 form-control" placeholder="Password"  name="password">
-                    <input type="text" id="inputPassword" class="mt-4 form-control" placeholder="Confirm Password"  name="password">
+                    <input type="text" id="inputConfirm" class="mt-4 form-control" placeholder="Confirm Password"  name="passwordconfirm">
                     <div class="form-check mt-4">
-                        <input type="checkbox" class="form-check-input" name="" value="remember-me">
+                        <input type="checkbox" class="form-check-input" value="remember-me">
                         <label for="remember-me">I agree to the <span><a href="#">terms and conditions</a></span></label>
                     </div>
                     <!-- <button class="btn btn-primary btn-block mt-4" id="signup-submit" type="submit" value="submit" name="submit">Submit</button> 
                     <button class="btn btn-secondary btn-block previous-2 mt-4" name="previous">Previous</button> -->
                     <div class="row">
                         <div class="col">
-                        <button class="btn btn-primary btn-block previous-2 mt-4" name="previous">Previous</button>
+                        <button class="btn btn-primary btn-block previous-2 mt-4">Previous</button>
                         </div>
                         <div class="col">
-                        <button class="btn btn-primary btn-block mt-4" id="signup-submit"name="next">Next</button>
+                        <button class="btn btn-primary btn-block mt-4" id="signup-submit">Next</button>
                         </div>
                     </div>
             </fieldset> 
         </form> 
-
+    </div>
     </div>
     </main>
     
