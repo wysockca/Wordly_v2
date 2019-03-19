@@ -35,21 +35,23 @@ $( document ).ready(function() {
 	});
 
 	$("#previous-1").on('click',function(){
-		$("#signup-form").hide();
-		$("#page-landing").show();
+		$("#page-signup-2").hide("slide", {direction: "right" }, 500, function(){
+			$("#page-signup-1").show();
+		});
 	});
 
 	$("#next-2").on('click',function(){
 		$("#page-signup-2").hide("slide", {direction: "left" }, 500, function(){
 			$("#page-signup-3").show();
-			$(".progress-bar").css("width","80%");
-			$(".snail").css("margin-left","70%");
+			$(".progress-bar").css("width","90%");
+			$(".snail").css("margin-left","80%");
 		});
 	});
 
 	$("#previous-2").on('click',function(){
-		$("#page-signup-3").hide();
-		$("#page-signup-2").show();
+		$("#page-signup-3").hide("slide", {direction: "right" }, 500, function(){
+			$("#page-signup-2").show();
+		});
 	});
 
 	$("#signup-submit").on('click',function(){
