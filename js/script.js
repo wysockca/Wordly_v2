@@ -54,10 +54,6 @@ $( document ).ready(function() {
 		});
 	});
 
-	$("#signup-submit").on('click',function(){
-		console.log("form submitted");
-	});
-
 	$("#next-3").on('click', function(){
 		$("#page-signup-3").hide("slide", {direction: "left" }, 500, function(){
 			$("#page-signup-4").show();
@@ -74,8 +70,11 @@ $( document ).ready(function() {
 
 	$("#buddy-box").click(function(e) {
 		$("#buddy-box img").css("opacity","1");
-		$("#buddy-box img").not($(e.target)).css("opacity","0.5");
+		$("#buddy-box img").not($(e.target)).css("opacity","0.4");
 		// $(e.target).css("border","1px solid red");
 	});
-
+	
+	$("#signup-submit").on('click',function(){
+			console.log("form submitted");
+		});
 });
