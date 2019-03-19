@@ -1,4 +1,28 @@
+body{
+  background-color:#F7FFF7;
+}
 
+/* STYLING FOR THE NAV BAR */
+.bg-light {
+    background-color: #3E537F!important;
+}
+
+.btn-outline-success {
+    color: #F7FFF7;
+    border-color: #F7FFF7;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
 
 .form-control{
     width:65%;
@@ -8,9 +32,11 @@
     margin-left: .5em;
 }
 
+
+/* STYLING FOR THE NAV BAR */
 .branches{
     margin-top:50%;
- 
+
 }
 .branch-1{
     margin-top: 20%;
@@ -29,10 +55,15 @@
 }
 
 .buddy{
-    margin-top:50%;
+    margin-top:80%;
+}
+
+.land{
+  margin-bottom:20%;
 }
 
 .col{
+  margin-top:30%;
     padding-left:0;
 }
 /* make search bar expand when screen is bigger */
