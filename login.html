@@ -11,26 +11,36 @@
 	<title>Wordly | Log In</title>
 	</head>
 	<body>
+    
     <header>
         <div class="page-header bg-primary text-center pt-4">
+            <!-- <img src="assets/bg-texture-light.png" class="img-fluid bg-top" alt="background texture"> -->
             <h3>WELCOME TO</h3>
             <a href="login.html"><img src="assets/logo-light.png" class="logo" alt="Wordly logo"></a>
         </div>
     </header>
     <main>
-
+    
+    
     <div class="container mt-4 mobileWrap">
+    
 
         <!--///////// LANDING PAGE /////////-->
         <div id="page-landing">
             <button class="btn btn-primary btn-block" id="login-button">Log in</button> 
             <button class="btn btn-primary btn-block mt-4" id="signup-button">Sign Up</button> 
-            <div class="text-center mt-4"><img class="dandy" src="assets/dandy.png"></div>
+            <!-- <div class="text-center mt-4"><img class="dandy" src="assets/dandy.png"></div> -->
         </div>
         
         <!--///////// LOG IN /////////-->
         <div id="page-login">        
             <form action="">
+                <div class="row ml-0 mt-4">
+                    <h3>Welcome Back!</h3>
+                </div>
+                <div class="row ml-0">
+                    <h4>Have you read any good books lately?</h4>
+                </div>
             <div class="form-group">
                 <input type="email" id="inputEmail" class="mt-4 form-control" placeholder="Email" required>
                 <input type="password" id="inputPassword" class="mt-4 form-control" placeholder="Password" required>
@@ -40,7 +50,7 @@
                 </div>
                 <button class="btn btn-primary btn-block mt-2" id="login-submit" type="submit">Log in</button> 
             </div> 
-            <a href="#" class="text-center">Forgot your password?</a>      
+            <a href="#">Forgot your password?</a>      
         </form> 
     </div>
     <!--///////// SIGN UP /////////-->
@@ -51,14 +61,19 @@
             <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <fieldset id="page-signup-1">
-                <h3>Step One</h3>
+               <div class="row ml-0 mt-4">
+                    <h3>Step One</h3>
+                </div>
+                <div class="row ml-0">
+                    <h4>Make your profile</h4>
+                </div>
                     <input type="email" id="inputEmail" class="mt-4 form-control" placeholder="Email" name="email">
                     <input type="text" id="inputName" class="mt-4 form-control" placeholder="First Name" name="Fname">  
                     <!-- <button class="btn btn-primary btn-block next-1 mt-4" name="next">Next</button>  
                     <button class="btn btn-secondary btn-block previous-0 mt-4">Previous</button> -->
                     <div class="row">
-                        <div class="col">
-                        <button class="btn btn-primary btn-block mt-4" id="previous-0">Previous</button>
+                        <div class="col mt-4">
+                        <p class="">Have an account?<a href="#" id="previous-0">&nbsp;Sign In</a></p>
                         </div>
                         <div class="col">
                         <button class="btn btn-primary btn-block mt-4" id="next-1">Next</button>
@@ -66,7 +81,12 @@
                     </div>
             </fieldset>
             <fieldset id="page-signup-2">
-                <h3>Step Two</h3>
+                <div class="row ml-0 mt-4">
+                    <h3>Step Two</h3>
+                </div>
+                <div class="row ml-0">
+                    <h4>Tell us about you!</h4>
+                </div>
                     <input type="date" id="inputBirthday" class="mt-4 form-control" name="bday">
                     <select class="form-control mt-4" id="">
                         <option>Reading Group 1</option>
@@ -85,7 +105,12 @@
                     <button class="btn btn-secondary btn-block previous-1 mt-4" name="previous">Previous</button> -->
             </fieldset>
             <fieldset id="page-signup-3">
-                <h3>Step Three</h3>
+                <div class="row ml-0 mt-4">
+                    <h3>Step Three</h3>
+                </div>
+                <div class="row ml-0">
+                    <h4>Choose a password</h4>
+                </div>
                     <input type="text" id="inputPassword" class="mt-4 form-control" placeholder="Password"  name="password">
                     <input type="text" id="inputConfirm" class="mt-4 form-control" placeholder="Confirm Password"  name="passwordconfirm">
                     <div class="form-check mt-4">
@@ -99,13 +124,58 @@
                         <button class="btn btn-primary btn-block mt-4" id="previous-2">Previous</button>
                         </div>
                         <div class="col">
-                        <button class="btn btn-primary btn-block mt-4" id="signup-submit">Finish</button>
+                        <button class="btn btn-primary btn-block mt-4" id="next-3">Next</button>
                         </div>
                     </div>
             </fieldset> 
+            <fieldset id="page-signup-4">
+                <div class="row ml-0 mt-4">
+                    <h3>Step Four</h3>
+                </div>
+                <div class="row ml-0">
+                    <h4>Choose a Book Buddy</h4>
+                </div>
+                <div id="buddy-box">
+                        <div class="row mt-4"> 
+                            <div class="col sm-4">
+                                <img src="assets/buddy1.png" class="img-fluid" alt="book buddy 1">
+                            </div>
+                            <div class="col sm-4">
+                                <img src="assets/buddy2.png" class="img-fluid" alt="book buddy 1">
+                            </div>
+                            <div class="col sm-4">
+                                <img src="assets/buddy3.png" class="img-fluid" alt="book buddy 1">
+                            </div>
+                        </div>
+                        <div class="row mt-4"> 
+                            <div class="col sm-4">
+                                <img src="assets/buddy4.png" class="img-fluid" alt="book buddy 4">
+                            </div>
+                            <div class="col sm-4">
+                                <img src="assets/buddy5.png" class="img-fluid" alt="book buddy 5">
+                            </div>
+                            <div class="col sm-4">
+                                <img src="assets/buddy6.png" class="img-fluid" alt="book buddy 6">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="col">
+                            <button class="btn btn-primary btn-block mt-4" id="previous-3">Previous</button>
+                            </div>
+                            <div class="col">
+                            <button class="btn btn-primary btn-block mt-4" id="signup-submit">Finish</button>
+                            </div>
+                    </div>
+                
+            </fieldset> 
         </form> 
-    </div>
-    </div>
+    </div><!--  end of signup form -->
+    
+    </div> <!-- end of container -->
+    <footer class="fixed-bottom">
+    <img src="assets/bg-texture-dark.png" class="bg bg-bot img-fluid" alt="background texture">
+    </footer>
     </main>
     
     <!-- JavaScript -->

@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	
 
 	$("#login-button").on('click', function(){
-		$("#page-landing").hide("slide", {direction: "up" }, 500, function(){
+		$("#page-landing").hide("slide", {direction: "left" }, 500, function(){
 			$("#page-login").show();
 		});
 		
@@ -20,17 +20,17 @@ $( document ).ready(function() {
 		});
 	});
 
-	$("#previous-0").on('click',function(){
+	$("#previous-0").on('click', function(){
 		$("#signup-form").hide("slide", {direction: "right" }, 500, function(){
 			$("#page-landing").show();
 		});
 	});
 
-	$("#next-1").on('click',function(){
+	$("#next-1").on('click', function(){
 		$("#page-signup-1").hide("slide", {direction: "left" }, 500, function(){
 			$("#page-signup-2").show();
-			$(".progress-bar").css("width","50%");
-			$(".snail").css("margin-left","35%");
+			$(".progress-bar").css("width","25%");
+			$(".snail").css("margin-left","15%");
 		});
 	});
 
@@ -40,15 +40,15 @@ $( document ).ready(function() {
 		});
 	});
 
-	$("#next-2").on('click',function(){
+	$("#next-2").on('click', function(){
 		$("#page-signup-2").hide("slide", {direction: "left" }, 500, function(){
 			$("#page-signup-3").show();
-			$(".progress-bar").css("width","90%");
-			$(".snail").css("margin-left","80%");
+			$(".progress-bar").css("width","50%");
+			$(".snail").css("margin-left","40%");
 		});
 	});
 
-	$("#previous-2").on('click',function(){
+	$("#previous-2").on('click', function(){
 		$("#page-signup-3").hide("slide", {direction: "right" }, 500, function(){
 			$("#page-signup-2").show();
 		});
@@ -58,5 +58,24 @@ $( document ).ready(function() {
 		console.log("form submitted");
 	});
 
+	$("#next-3").on('click', function(){
+		$("#page-signup-3").hide("slide", {direction: "left" }, 500, function(){
+			$("#page-signup-4").show();
+			$(".progress-bar").css("width","75%");
+			$(".snail").css("margin-left","65%");
+		});
+	});
+
+	$("#previous-3").on('click', function(){
+		$("#page-signup-4").hide("slide", {direction: "right" }, 500, function(){
+			$("#page-signup-3").show();
+		});
+	});
+
+	$("#buddy-box").click(function(e) {
+		$("#buddy-box img").css("opacity","1");
+		$("#buddy-box img").not($(e.target)).css("opacity","0.5");
+		// $(e.target).css("border","1px solid red");
+	});
 
 });

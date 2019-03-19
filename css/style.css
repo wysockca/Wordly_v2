@@ -1,3 +1,7 @@
+body{
+ background-color: #D4F4EB;
+}
+
 .snail{
     max-width: 80px;
 }
@@ -6,7 +10,7 @@
 	max-width: 180px;
 }
 
-#page-login, #signup-form, #page-signup-1, #page-signup-2, #page-signup-3{
+#page-login, #signup-form, #page-signup-1, #page-signup-2, #page-signup-3, #page-signup-4{
 	display: none;
 	position: relative;
 }
@@ -15,12 +19,22 @@
 
 .progress{
 	height: 2px;
+	background-color: white;
 }
 
 .progress-bar{
-	width:25%;
+	width:10%;
 }
 
 .mobileWrap{
 	max-width: 500px;
+}
+
+.bg-top{
+	margin-top: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.bg-bot{
+	margin-bottom: 0px
 }
