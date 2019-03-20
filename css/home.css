@@ -40,19 +40,17 @@ body{
 
 
 .branches{
-    margin-top:50%;
+    margin-top:60%;
 
 }
-.branch-1{
-    margin-top: 20%;
-}
+
 
 .branch-2{
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .branch-3{
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .title{
@@ -60,7 +58,7 @@ body{
 }
 
 .buddy{
-    margin-top:80%;
+    margin-top:50%;
 }
 
 .land{
