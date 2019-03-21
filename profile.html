@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Wordly | Profile</title>
+	</head>
+	<body>
+        <header>
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">Wordly</a>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Settings</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="profile.html" tabindex="-1">My Profile <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- search content -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search for Books" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+        </header>
+        <div class="container pt-4">
+            <h1>About Me</h1>
+            <div id="accountInfo">
+                <div class="row pt-4">
+                    <div class="col-sm-6">
+                        <h2 class="pb-2">My book buddy</h2>
+                        <img class="img-fluid" src="assets/{{bookBuddy}}" alt="Book Buddy">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="pb-2">My name</h2>
+                        <p>{{fName}}</p>
+                        <h2 class="pb-2">My birthday</h2>
+                        <p>{{birthday}}</p>
+                        <h2 class="pb-2">Reading group</h2>
+                        <p>{{readingAge}}</p>
+                    </div>
+                </div>
+                <div class="text-right">
+                    <a href="#">Edit</a>
+                </div>
+            </div>
+            <div id="genres">
+                <h2>My Favourite Genres</h2>
+                <div class="row pt-4">
+                    <div class="col-md-2 col-4">
+                        <h3><a href="#" class="badge badge-pill badge-info">Fantasy</a></h3>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <h3><a href="#" class="badge badge-pill badge-info">Fantasy</a></h3>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <h3><a href="#" class="badge badge-pill badge-info">Fantasy</a></h3>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <h3><a href="#" class="badge badge-pill badge-info">Fantasy</a></h3>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <h3><a href="#" class="badge badge-pill badge-info">Fantasy</a></h3>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <h3><a href="#" class="badge badge-pill badge-info">Fantasy</a></h3>
+                    </div>
+                </div>
+                <div class="text-right">
+                    <a href="#">Edit</a>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4">
+            <h1>My Badges</h1>
+            <div class="row pt-4">
+                <div class="col-md-3 col-6">
+                    <img class="img-fluid" src="assets/badge-1.png">
+                </div>
+                <div class="col-md-3 col-6">
+                    <img class="img-fluid" src="assets/badge-2.png">
+                </div>
+                <div class="col-md-3 col-6">
+                    <img class="img-fluid" src="assets/badge-3.png">
+                </div>
+                <div class="col-md-3 col-6">
+                    <img class="img-fluid" src="assets/badge-4.png">
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
