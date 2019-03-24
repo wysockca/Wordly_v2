@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: 'Roboto', sans-serif;
+ 	background-color:#F7FFF7;
+ 	color: #3E537F;
+}
+
+h1, h2{
+    color: #3eb8a5;
+}
+
+h3, h4{
+    color: #3eb8a5;
+}
+
+/* STYLING FOR THE NAV BAR */
+.bg-light {
+    background-color: #3E537F!important;
+}
+
+.btn-primary{
+	background-color: #3eb8a5;
+	border-color: #3eb8a5;
+}
+
+.btn-primary:hover{
+	background-color: #c0e1c2;
+	border-color: #c0e1c2;
+}
+
+.btn-outline-success {
+    color: #3eb8a5;
+    border-color: #3eb8a5;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: #3eb8a5;
+    border-color: #3eb8a5;
+}
+
+.navbar-light .navbar-brand {
+    color: #3eb8a5;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #3eb8a5;
+}
