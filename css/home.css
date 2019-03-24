@@ -32,11 +32,11 @@ body{
     margin-left: .5em;
 }
 
+.wordly-alert{
+    position: absolute;
+}
+
 /* STYLING FOR THE NAV BAR */
-
-
-
-
 
 
 .branches{
@@ -63,7 +63,7 @@ body{
 
 
 .col{
-  margin-top:30%;
+    margin-top:30%;
     padding-left:0;
 }
 /* make search bar expand when screen is bigger */
