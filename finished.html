@@ -12,7 +12,7 @@
 	</head>
 	<body>
         <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,26 +36,6 @@
         </nav>
     </header>
 
-    <!-- Add to branches pop up -->
-        <div class="modal fade" id="addToBranch" tabindex="-1" role="dialog" aria-labelledby="addToBranchLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="addToBranchLabel">Add to a Branch</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <button type="button" class="btn btn-primary btn-block mt-4">Start Reading</button>
-                <button type="button" class="btn btn-primary btn-block mt-4">Want to Read</button>
-                <button type="button" class="btn btn-primary btn-block mt-4">Completed</button>
-                <button type="button" class="btn btn-primary btn-block mt-4">Delete from Branch</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <!-- main browse page -->
         <main>
         <div class="container py-4">
@@ -65,21 +45,25 @@
             <div class="row py-4">
 
             <!-- php while loop to get records a create each one in a column -->
-                <div class="col-6 col-md-3"> 
+                <div class="col-6 col-md-4 col-lg-3"> 
                     <a href="#"><img href="#" src=assets/placeholder-cover.jpg class="img-fluid"></a>
-                    <h6>Interview with the Vampire</h6>  
+                    <a href="#"><h4 class="mt-2">War and Peace</h4></a>
+                    <h6>author name</h6> 
                 </div>
-                <div class="col-6 col-md-3"> 
+                <div class="col-6 col-md-4 col-lg-3"> 
                     <a href="#"><img href="#" src=assets/placeholder-cover.jpg class="img-fluid"></a>  
-                    <h6>One Fish Two Fish Red Fish Blue Fish</h6>
+                    <a href="#"><h4 class="mt-2">One Fish Two Fish Red Fish Blue Fish</h4></a>
+                    <h6>author name</h6>
                 </div>
-                <div class="col-6 col-md-3"> 
+                <div class="col-6 col-md-4 col-lg-3"> 
                     <a href="#"><img href="#" src=assets/placeholder-cover.jpg class="img-fluid"></a>
-                    <h6>The Golden Compass</h6>
+                    <a href="#"><h4 class="mt-2">Interview with the Vamprie</h4></a>
+                    <h6>author name</h6>
                 </div>
-                <div class="col-6 col-md-3"> 
+                <div class="col-6 col-md-4 col-lg-3"> 
                     <a href="#"><img href="#" src=assets/placeholder-cover.jpg class="img-fluid"></a>
-                    <h6>Perloo the Bold</h6>
+                    <a href="#"><h4 class="mt-2">Perloo the Bold</h4></a>
+                    <h6>author name</h6>
                 </div>
             </div>
                 <!-- php while loop to get records  -->
