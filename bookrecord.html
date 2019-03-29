@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <title>Wordly | {{title}}</title>
+    <title>Wordly | <?php echo $title;?></title>
   </head>
   <body>
     <header>
@@ -45,11 +45,12 @@
 	   			<img src="https://www.scholastic.com/content5/media/products/03/9780440414803_mres.jpg" class="img-fluid" alt="Holes">
 	   		</div>
 	   		<div class="col-7">
-	   			<h1>Holes</h1>
-	   			<h5>by Louis Sachar</h5>
+	   			<h1><?php echo $title;?></h1>
+	   			<h5>by <?php echo $author;?></h5>
 	   			<ul class="list-unstyled">
-	   				<li>233 pages</li>
-	   				<li>ISBN: 0439244196</li>
+	   				<li><?php echo $pages;?> pages</li>
+	   				<li>ISBN: <?php echo $ISBN;?></li>
+	   				<li><?php echo $genre;?></li>
 	   			</ul>
 	   			<div class="row">
 	   				<div class="col-12 col-sm">
@@ -89,7 +90,7 @@
 
 	<div class="container py-4">
 	   <h2 class="text-center mb-4">About the Book</h2>
-	   <p>Stanley Yelnats is under a curse. A curse that began with his no-good-dirty-rotten-pig-stealing-great-great-grandfather and has since followed generations of Yelnatses. Now Stanley has been unjustly sent to a boys’ detention center, Camp Green Lake, where the boys build character by spending all day, every day digging holes exactly five feet wide and five feet deep. There is no lake at Camp Green Lake. But there are an awful lot of holes.</p>
+	   <p><?php echo $description;?></p>
 	</div>
 	<div class="container py-4">
 		<h2 class="text-center mb-4">Rate this Book</h2>
